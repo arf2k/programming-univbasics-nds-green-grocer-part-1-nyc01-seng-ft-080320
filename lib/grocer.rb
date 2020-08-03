@@ -36,7 +36,7 @@ end
 #   index = 0
 
 #   collection.each do |grocery_item|
-#     return grocery_item if grocery_item[:item] === name 
+#     return grocery_item if grocery_item[:item] == name 
 #     index += 1
 #   end
 
@@ -53,7 +53,7 @@ end
 #     if current_item
 #       new_cart_index = 0
 #       new_cart.each do |new_cart_item|
-#         if new_cart_item[:item] === current_item[:item]
+#         if new_cart_item[:item] == current_item[:item]
 #           new_cart_item[:count] += 1
 #         end
 #         new_cart_index += 1
